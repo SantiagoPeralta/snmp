@@ -1,0 +1,15 @@
+{
+  "name": "snmp_node",
+  "version": "1.0.0",
+  "description": "App para obtener la informacion de todos los dispositivos conectados a la red",
+  "main": "snmp.js",
+  "scripts": {
+    "start": "node snmp.js"
+  },
+  "author": "Santi el mago",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "snmp-native": "^1.2.0"
+  }
+}
